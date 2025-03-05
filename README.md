@@ -24,7 +24,6 @@ pip install flask fastapi gtts uvicorn
 
 * Flask is a lightweight web framework, making it ideal for simple APIs.
 * The **Flask API** is implemented in **app_flask.py**.
-
 * It accepts **POST** requests with JSON data containing the text to be converted.
 * Returns an **MP3 file** as a response.
 
@@ -45,13 +44,10 @@ curl -X POST "http://127.0.0.1:5000/speak" \
 
 ## **FastAPI Implementation**
 
-FastAPI is a modern, high-performance framework for building APIs.
-
-**	**•**	**The **FastAPI version** is in **app_fastapi.py**.
-
-**	**•**	**Uses **Pydantic models** for request validation.
-
-**	**•**	**Provides **automatic documentation** via Swagger UI.
+* FastAPI is a modern, high-performance framework for building APIs.
+* The **FastAPI version** is in **app_fastapi.py**.
+* Uses **Pydantic models** for request validation.
+* Provides **automatic documentation** via Swagger UI.
 
 ### **How to Run FastAPI**
 
